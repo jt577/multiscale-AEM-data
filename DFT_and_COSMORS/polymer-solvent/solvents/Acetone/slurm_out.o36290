@@ -1,0 +1,8 @@
+/var/spool/slurmd/job36290/slurm_script: line 4: module: command not found
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                        FATAL ERROR ENCOUNTERED               !!!
+!!!                        -----------------------               !!!
+!!!                           CANNOT OPEN FILE                   !!!
+!!!               Filename: polybutadiene.xyz                                   !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

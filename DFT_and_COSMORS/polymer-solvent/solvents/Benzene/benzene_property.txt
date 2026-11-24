@@ -1,0 +1,138 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -232.3295220257
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 21.0000204017 
+   Number of Beta  Electrons                 21.0000204017 
+   Total number of  Electrons                42.0000408033 
+   Exchange energy                          -33.3246045256 
+   Correlation energy                        -1.4944308218 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -34.8190353474 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -232.3295220257 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 1
+   prop. index: 1
+     Epsilon:                2.2800000000
+     Refrac:                 1.5010000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:                704
+     Surface Area:         434.0600833869
+     Dielectric Energy:     -0.0025011380
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 12
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 12
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     6.1281     6.0000    -0.1281     3.8822     3.8822     0.0000
+  1   0     6.1283     6.0000    -0.1283     3.8821     3.8821     0.0000
+  2   0     6.1282     6.0000    -0.1282     3.8821     3.8821    -0.0000
+  3   0     6.1280     6.0000    -0.1280     3.8822     3.8822     0.0000
+  4   0     6.1283     6.0000    -0.1283     3.8821     3.8821    -0.0000
+  5   0     6.1282     6.0000    -0.1282     3.8821     3.8821    -0.0000
+  6   0     0.8718     1.0000     0.1282     0.9646     0.9646    -0.0000
+  7   0     0.8718     1.0000     0.1282     0.9646     0.9646    -0.0000
+  8   0     0.8719     1.0000     0.1281     0.9646     0.9646    -0.0000
+  9   0     0.8718     1.0000     0.1282     0.9646     0.9646    -0.0000
+ 10   0     0.8718     1.0000     0.1282     0.9646     0.9646    -0.0000
+ 11   0     0.8719     1.0000     0.1281     0.9646     0.9646     0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                1.390176
+                0             6               5            6                1.390286
+                0             6               8            1                0.965914
+                1             6               2            6                1.390258
+                1             6               9            1                0.965897
+                2             6               3            6                1.390273
+                2             6              10            1                0.965832
+                3             6               4            6                1.390163
+                3             6              11            1                0.965931
+                4             6               5            6                1.390234
+                4             6               6            1                0.965908
+                5             6               7            1                0.965835
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       12
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             222
+     number of aux C basis functions:       0
+     number of aux J basis functions:       360
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -232.329522
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : benzene.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.0000115539
+        Electronic Contribution:
+                  0    
+      0       0.000021
+      1       0.000012
+      2       0.000000
+        Nuclear Contribution:
+                  0    
+      0      -0.000017
+      1      -0.000009
+      2       0.000000
+        Total Dipole moment:
+                  0    
+      0       0.000003
+      1       0.000003
+      2       0.000000
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    12 
+    Geometry Index:     1 
+    Coordinates:
+               0 C     -3.146820000000    1.509340000000    0.000000000000
+               1 C     -3.112010000000    0.114940000000    0.000000000000
+               2 C     -1.887020000000   -0.552100000000    0.000000000000
+               3 C     -0.696850000000    0.175250000000    0.000000000000
+               4 C     -0.731670000000    1.569640000000    0.000000000000
+               5 C     -1.956650000000    2.236680000000    0.000000000000
+               6 H      0.195610000000    2.136320000000    0.000000000000
+               7 H     -1.983780000000    3.323070000000    0.000000000000
+               8 H     -4.101230000000    2.029040000000    0.000000000000
+               9 H     -4.039290000000   -0.451740000000    0.000000000000
+              10 H     -1.859900000000   -1.638490000000    0.000000000000
+              11 H      0.257550000000   -0.344460000000    0.000000000000

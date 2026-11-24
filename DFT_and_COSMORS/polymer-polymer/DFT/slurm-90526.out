@@ -1,0 +1,2 @@
+usage: slurm_script [-h] folder
+slurm_script: error: the following arguments are required: folder

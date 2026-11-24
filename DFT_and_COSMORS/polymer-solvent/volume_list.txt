@@ -1,0 +1,15 @@
+polybutadiene 2294.170346035
+polychloroprene 2073.691365140
+polydimethylsiloxane 2673.045778893
+polystyrene 2865.830357334
+polyvinylacetate 2186.709294074
+polyepichlorohydrin 2330.248811260
+Acetone 556.298941450
+Acetonitrile 424.005579196
+Benzene 734.466729175
+Chloroform 684.964314204
+Cyclohexane 825.751199909
+Ethanol 455.589189324
+Methanol 323.983198644
+THF 643.082388708
+Toluene 869.651168599

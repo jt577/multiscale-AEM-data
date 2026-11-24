@@ -1,0 +1,128 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -155.1113107416
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 12.9999955349 
+   Number of Beta  Electrons                 12.9999955349 
+   Total number of  Electrons                25.9999910698 
+   Exchange energy                          -20.7860805222 
+   Correlation energy                        -0.9222265493 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -21.7083070715 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -155.1113107416 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 1
+   prop. index: 1
+     Epsilon:               24.3000000000
+     Refrac:                 1.3610000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:                586
+     Surface Area:         316.4533973517
+     Dielectric Energy:     -0.0089527693
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 9
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 8
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     6.3505     6.0000    -0.3505     3.8239     3.8239     0.0000
+  1   0     6.0474     6.0000    -0.0474     3.9511     3.9511     0.0000
+  2   0     8.5114     8.0000    -0.5114     1.8847     1.8847     0.0000
+  3   0     0.8816     1.0000     0.1184     0.9753     0.9753    -0.0000
+  4   0     0.8810     1.0000     0.1190     0.9739     0.9739    -0.0000
+  5   0     0.8731     1.0000     0.1269     0.9745     0.9745    -0.0000
+  6   0     0.8990     1.0000     0.1010     0.9489     0.9489     0.0000
+  7   0     0.8999     1.0000     0.1001     0.9484     0.9484    -0.0000
+  8   0     0.6560     1.0000     0.3440     0.8934     0.8934    -0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                0.987922
+                0             6               3            1                0.962093
+                0             6               4            1                0.962588
+                0             6               5            1                0.957406
+                1             6               2            8                1.025152
+                1             6               6            1                0.960981
+                1             6               7            1                0.960000
+                2             8               8            1                0.874826
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       9
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             129
+     number of aux C basis functions:       0
+     number of aux J basis functions:       213
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -155.111311
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : ethanol.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        2.0538185315
+        Electronic Contribution:
+                  0    
+      0       2.443767
+      1      -0.766265
+      2       0.568686
+        Nuclear Contribution:
+                  0    
+      0      -2.205541
+      1       1.467138
+      2      -0.892598
+        Total Dipole moment:
+                  0    
+      0       0.238226
+      1       0.700873
+      2      -0.323911
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    9 
+    Geometry Index:     1 
+    Coordinates:
+               0 C     -3.921930000000    0.415110000000    0.093550000000
+               1 C     -2.494970000000    0.899270000000   -0.050320000000
+               2 O     -1.619330000000   -0.069490000000    0.506950000000
+               3 H     -4.163170000000    0.230650000000    1.145640000000
+               4 H     -4.062330000000   -0.533180000000   -0.435740000000
+               5 H     -4.625850000000    1.149840000000   -0.307110000000
+               6 H     -2.355810000000    1.846090000000    0.479950000000
+               7 H     -2.240990000000    1.038760000000   -1.105380000000
+               8 H     -0.715440000000    0.276750000000    0.415530000000

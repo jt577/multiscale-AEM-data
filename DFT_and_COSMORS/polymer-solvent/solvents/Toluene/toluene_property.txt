@@ -1,0 +1,147 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -271.6584205195
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 25.0000171105 
+   Number of Beta  Electrons                 25.0000171105 
+   Total number of  Electrons                50.0000342210 
+   Exchange energy                          -39.2324066985 
+   Correlation energy                        -1.7790367826 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -41.0114434812 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -271.6584205195 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 1
+   prop. index: 1
+     Epsilon:                2.4000000000
+     Refrac:                 1.4970000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:                871
+     Surface Area:         507.2681662179
+     Dielectric Energy:     -0.0027236736
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 15
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 15
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     6.3791     6.0000    -0.3791     3.8476     3.8476    -0.0000
+  1   0     5.8461     6.0000     0.1539     3.6533     3.6533    -0.0000
+  2   0     6.2039     6.0000    -0.2039     3.9124     3.9124     0.0000
+  3   0     6.1196     6.0000    -0.1196     3.8781     3.8781    -0.0000
+  4   0     6.1480     6.0000    -0.1480     3.8868     3.8868    -0.0000
+  5   0     6.1192     6.0000    -0.1192     3.8771     3.8771     0.0000
+  6   0     6.2039     6.0000    -0.2039     3.9094     3.9094     0.0000
+  7   0     0.8643     1.0000     0.1357     0.9581     0.9581     0.0000
+  8   0     0.8694     1.0000     0.1306     0.9679     0.9679     0.0000
+  9   0     0.8690     1.0000     0.1310     0.9671     0.9671     0.0000
+ 10   0     0.8779     1.0000     0.1221     0.9702     0.9702     0.0000
+ 11   0     0.8741     1.0000     0.1259     0.9652     0.9652     0.0000
+ 12   0     0.8737     1.0000     0.1263     0.9650     0.9650     0.0000
+ 13   0     0.8742     1.0000     0.1258     0.9652     0.9652     0.0000
+ 14   0     0.8778     1.0000     0.1222     0.9701     0.9701     0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                0.924788
+                0             6               7            1                0.942449
+                0             6               8            1                0.978100
+                0             6               9            1                0.976733
+                1             6               2            6                1.351745
+                1             6               6            6                1.348970
+                2             6               3            6                1.401567
+                2             6              10            1                0.973468
+                3             6               4            6                1.384173
+                3             6              11            1                0.969817
+                4             6               5            6                1.383179
+                4             6              12            1                0.965683
+                5             6               6            6                1.401786
+                5             6              13            1                0.970025
+                6             6              14            1                0.974486
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       15
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             265
+     number of aux C basis functions:       0
+     number of aux J basis functions:       431
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -271.658421
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : toluene.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.4922842486
+        Electronic Contribution:
+                  0    
+      0       0.265150
+      1      -3.251968
+      2      -0.040902
+        Nuclear Contribution:
+                  0    
+      0      -0.279447
+      1       3.443041
+      2       0.069130
+        Total Dipole moment:
+                  0    
+      0      -0.014296
+      1       0.191073
+      2       0.028228
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    15 
+    Geometry Index:     1 
+    Coordinates:
+               0 C     -1.329100000000    3.503940000000    0.001590000000
+               1 C     -1.207850000000    2.009270000000   -0.025340000000
+               2 C     -2.352890000000    1.203320000000   -0.007130000000
+               3 C     -2.238180000000   -0.187930000000    0.000860000000
+               4 C     -0.978830000000   -0.784730000000    0.001860000000
+               5 C      0.166580000000    0.009090000000   -0.000700000000
+               6 C      0.053160000000    1.400410000000   -0.008820000000
+               7 H     -1.328640000000    3.860830000000    1.036070000000
+               8 H     -2.254350000000    3.830540000000   -0.484680000000
+               9 H     -0.497650000000    3.972050000000   -0.535790000000
+              10 H     -3.342200000000    1.654930000000   -0.000080000000
+              11 H     -3.132130000000   -0.805810000000    0.009390000000
+              12 H     -0.890100000000   -1.867690000000    0.009130000000
+              13 H      1.149200000000   -0.454990000000    0.006690000000
+              14 H      0.955600000000    2.007340000000   -0.003040000000

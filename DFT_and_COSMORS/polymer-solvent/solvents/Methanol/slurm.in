@@ -1,0 +1,5 @@
+#!/bin/bash
+#SBATCH -N 1 -n 64 -c 1 -p hi_mem3 -J polymer -o slurm_out.o%j
+#SBATCH --time=120:00:00
+module load mpi/openmpi-x86_64
+/data2/jt577/ORCA/orca methanol.inp > methanol.out

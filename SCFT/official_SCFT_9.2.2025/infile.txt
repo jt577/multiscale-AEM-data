@@ -1,0 +1,40 @@
+# Input file for Polymer SCFT
+
+# Polymer Properties
+ds      0.005                                               # size of Fokker-Planck time step
+chi 4                                                       # FH interaction matrix and number of species
+A B 1.22                    
+A C 0.62
+B C 0.30
+A D 1.0
+B D 1.0
+C D -0.1
+polymer-mixture 2                                           # polymers in mixture (number of distinct types is integer after mixture)
+N 50 weight 0.30  A 0.20 B 0.45 C 0.35                      # number of persistence lengths, monomer (not polymer!) weight in mixture, and block fractions of species
+N 50 weight 0.60  A 0.45 B 0.20 C 0.35
+solvent-mixture 1                                           # solvents in mixture (number of distinct types is integer after mixture)
+weight 0.10  D                                              # solvent weight in mixture and monomer species
+
+# Box Geometry and grid
+Lattice                                                     # initial geometry of unit cell (lattice vectors are columns)
+6 0 0
+0 6 0
+0 0 6
+gridShape   64 64 64                                        # number of grid points in each spatial dimension
+fix     prop                                                # (optional) fix "angles" between lattice vectors, "prop" (proportionality) between lattice vector magnitudes, or the whole "Lattice"
+Lattice_tol     1e-3                                        # tolerance for unit cell parameter error                        
+initial_Lattice_stepsize  0.1                               # initial stepsize for unit cell parameter gradient descent 
+
+# Nonlinear Solver
+picard_stepsize  0.10                                       # stepsize for linear mixing in nonlinear equation solver
+picard_tol       1e-3                                       # tolerance for self consistent error
+nIter            1000                                       # max number of iterations to run the solver
+
+# Initial State
+# x_file   /path/to/file                                    # specify path to initial state (optional)
+seed        gyroid                                          # specify seed (optional - gyroid, diamond, O70, cylinders, spheres, lamella)
+period      1                                               # size of period in cell (smaller means more repeat units of morphology)
+epsilon     1                                               # random initial guess amplitude (if x0_file not specified)
+
+# Dumping
+dump_freq   100                                             # number of Picard iterations between each plot/density/iterate dump

@@ -1,0 +1,16 @@
+# Research files larger than 10 MiB are stored with Git LFS.
+"SCFT/blender/gyroid_A20B45C35.blend" filter=lfs diff=lfs merge=lfs -text
+"SCFT/blender/gyroid_A20B45C35.blend1" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_O70.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_cylinders.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_diamond.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_gyroid.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_lamella.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABC/gp_spheres.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABCBA/gp_O70.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABCBA/gp_cylinders.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABCBA/gp_diamond.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABCBA/gp_gyroid.pkl" filter=lfs diff=lfs merge=lfs -text
+"SCFT/phase_visualizer/models/ABCBA/gp_lamella.pkl" filter=lfs diff=lfs merge=lfs -text
+"figures/bounds.svg" filter=lfs diff=lfs merge=lfs -text
+"figures/membranes.svg" filter=lfs diff=lfs merge=lfs -text
